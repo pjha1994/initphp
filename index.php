@@ -2,10 +2,25 @@
 	$heading = 'Welcome'; 
 	$fruit = array('Apple','Orange','Grapes');
 	$keyval = array('fruit1'=>'Apple','fruit2'=>'Orange','fruit3'=>'Grapes');
-	$user = array('first_name'=>'xadnem','last_name'=>'mendax','email'=>'abcd@efgh.ijk');
+	$user = array('First name'=>'xadnem','Last name'=>'mendax','Email'=>'abcd@efgh.ijk');
 	foreach($fruit as $fruits){
 		echo $fruits.'<br>';
 	}
+
+	$x = 10;
+	if($x==1)
+		echo 'YES';
+	
+	else
+		echo 'NO';
+
+
+	function sayHello($words){
+		echo 'Hello World';
+		echo $words;
+	}
+	sayHello('');
+	sayHello('hello again');
 ?>
 
 <h1>Welcome</h1>

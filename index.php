@@ -5,12 +5,7 @@
 	$user = array('first_name'=>'xadnem','last_name'=>'mendax','email'=>'abcd@efgh.ijk');
 	foreach($fruit as $fruits){
 		echo $fruits.'<br>';
-	};
-	<ul>
-	<?php foreach($fruit as $fruits) : ?>
-		<li><?php echo $fruits;?></li>
-	<?php endforeach; ?>
-	</ul>
+	}
 ?>
 
 <h1>Welcome</h1>
@@ -21,4 +16,10 @@
 
 <p><?php echo $keyval['fruit3'];?></p>
 
-//<p><?php;?></p>
+<ul>
+	
+	<?php foreach($fruit as $fruits) : ?>
+		<li> <?php echo $fruits; ?> </li>
+	<?php endforeach; ?>
+	
+</ul>

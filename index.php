@@ -23,3 +23,13 @@
 	<?php endforeach; ?>
 	
 </ul>
+
+
+<ul>
+
+<?php foreach($user as $key=>$value) : ?>
+
+	<li><?php echo $key;?> : <?php echo $value;?></li>
+
+<?php endforeach;?>
+</ul>

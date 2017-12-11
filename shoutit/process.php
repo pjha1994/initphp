@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
 
 	//Set TimeZone
 
-	date_default_timezone_set('America/New York');
+	date_default_timezone_set('Asia/Calcutta');
 	$time = date('h:i:s a',time());
 
 	//validate
